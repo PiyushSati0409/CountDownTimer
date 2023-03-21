@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    object-fit: contain;
+    margin: 5px;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 22rem; */
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    flex-wrap: wrap;
+}
+.time-container{
+    width: 80px;
+    align-self: center;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+}
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    height: 70vh;
+    width: 105vw;
+}
+img{
+    object-fit: contain;
+    /* width: 100%; */
+    height: 100%;
+    margin: auto;
+}
+h1{
+    font-size: 3rem;
+}
+.bigtext{
+    font-size: 2rem;
+}
+.drive-link{
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 0;
+    align-self: end;
+
+}
+.drive-link>a:visited{
+    color: hotpink;
+}
+.drive-link>a{
+    color: hotpink;
+}
